@@ -1,0 +1,19 @@
+#include<stdio.h>
+
+#include<conio.h>
+
+void main()
+
+{
+
+char str[50];
+
+printf("Enter a String:- ");
+
+gets(str);
+
+printf("You entered : %s", str);
+
+getch();
+
+}
